@@ -1,0 +1,57 @@
+.list {
+	list-style: none;
+	width: 1000px;
+	margin: 20px auto;
+	height: auto;
+	display:table;
+	padding: 0;
+}
+
+.list .item {
+	width: 240px;
+	height: 300px;
+	text-align: center;
+	border: 1px solid #ccc;
+	transition: all 0.5s;
+	position: relative;
+	float:left;
+	margin:5px 4px;
+}
+
+.list .item:hover {
+	box-shadow:0 0 10px #1296db;
+}
+.list .item img {
+	display: inline-block;
+	height: 100%;
+}
+
+.good-img,.good-title{
+	width: 100%;
+}
+.good-img{
+	height:240px;
+	border:none;
+}
+.good-title{
+	height:60px;
+}
+.good-price{
+	position:absolute;
+	left:0px;
+	top:0px;
+	background-color:rgba(18,150,219,0.7);
+	width:50px;
+	height:20px;
+	line-height:20px;
+}
+.zoom {
+	width: 150px;
+}
+
+.box-pagination {
+	width: 100%;
+	margin: 20px auto;
+	height: 50px;
+	text-align: center;
+}

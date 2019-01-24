@@ -1,0 +1,166 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.list {
+	list-style: none;
+	width: 1000px;
+	margin: 20px auto;
+	min-height: 360px;
+	height:auto;
+	padding: 0;
+}
+
+.list .item {
+	width: 100%;
+	height: 150px;
+	text-align: center;
+	border: 1px solid #1296db;
+	transition: all 0.5s;
+	position: relative;
+	overflow: hidden;
+}
+
+.list .item:hover {
+	background-color: #ccc;
+}
+
+.list .item p {
+	display: inline-block;
+	height: 100%;
+	line-height: 120px;
+	margin:0;
+	float: left;
+}
+
+.list .item img {
+	display: inline-block;
+	height: 110px;
+	padding: 5px 0;
+}
+
+.good-img {
+	width: 150px;
+	padding: 10px;
+	box-sizing: border-box;
+}
+
+.good-price, .good-count {
+	width: 200px;
+}
+
+.good-description {
+	width: 300px;
+}
+
+.zoom {
+	width: 140px;
+}
+
+.total {
+	width: 1000px;
+	height: 100px;
+	margin: 15px auto;
+	position: relative;
+	border: 1px solid #1296db;
+}
+
+.total-zoom {
+	width: 300px;
+	height: 100%;
+	float: left;
+	line-height: 100px;
+}
+
+.total-balance {
+	width: 200px;
+	float: right;
+	height: 100%;
+}
+
+.btn-balance {
+	float: right;
+	margin-top: 25px;
+	margin-right: 20px;
+}
+
+.pay {
+	width: 600px;
+	height: 400px;
+	position: fixed;
+	margin-top: -200px;
+	margin-left: -300px;
+	top: 50%;
+	left: 50%;
+	border: 1px solid #1296db;
+	border-radius: 5px;
+	background-color: #fff;
+	display: none;
+	z-index: 33;
+}
+
+.box-addrs {
+	padding: 10px 10px 10px 30px;
+	width: 480px;
+	height: 290px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.list-group {
+	width: 400px;
+	height: 220px;
+	margin-bottom: 0px;
+	overflow: auto;
+}
+
+.list-group-item {
+	width: 400px;
+	height: 72px;
+}
+
+.addr-title {
+	height: 30px;
+	width: 200px;
+	margin:0;
+}
+
+.addrs-info {
+	height: 30px;
+}
+
+.pay-btn {
+	height: 90px;
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.pay-btn p {
+	width: 110px;
+	height: 30px;
+	line-height: 30px;
+	font-size: 30px;
+	color: #c40000;
+	background: url("imgs/rmb.png") no-repeat 0px 0px;
+	overflow: hidden;
+	margin: 5px auto;
+}
+
+.gopay {
+	height: 50px;
+	margin: 15px auto 0px auto;
+}
+
+/*
+结算 ajax 黑框
+
+*/
+.btn-black{
+	top:25px;
+	right:20px;
+}
+
+
+
